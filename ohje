@@ -24,3 +24,6 @@ ku muutat jotain:
 git add .
 git commit -m "viesti"
 git push
+
+git status
+git -h
