@@ -1,0 +1,26 @@
+git linuxilla
+
+asenna git..
+
+tee githubiin uus repo
+
+git clone https://github.com/nimes/reponnimi
+cd reponnimi
+tee joku file, vaikka
+git add . tai * tai file tai jotain
+
+githubissa oikee yläkulma omasta kuvasta settings - developer settings - personal access token - tokens classic
+generate new token classic
+noteen jotain vaan ja expiration miten haluut
+merkkaa repo, muita jos haluut
+generate token ja kopioi token
+
+git remote set-url origin https://setokeni@github.com/nimes/reponnimi.git
+git commit -m "viesti"
+git push
+valmis
+
+ku muutat jotain:
+git add .
+git commit -m "viesti"
+git push
